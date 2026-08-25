@@ -1,149 +1,137 @@
 <mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="第 1 页">
-    <mxGraphModel dx="2175" dy="-26" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n  WAN1[\&quot;入户 WAN 路由器\&quot;] --&gt; FW[\&quot;防火墙\&quot;]\n  FW --&gt; LAN168[\&quot;192.168 局域网\&quot;]\n  FW --&gt; LAN167[\&quot;192.167 局域网\&quot;]\n\n  LAN168 --&gt; SW3[\&quot;三层交换机\&quot;]\n  SW3 --&gt; VLAN17216[\&quot;172.16 局域网\&quot;]\n  SW3 --&gt; VLAN17217[\&quot;172.17 局域网\&quot;]\n  VLAN17216 --&gt; PCs[\&quot;PC 等终端设备\&quot;]\n  VLAN17217 --&gt; Printers[\&quot;打印机等设备\&quot;]\n\n  WAN2[\&quot;WAN 路由器&lt;br/&gt;192.168.8\&quot;] --&gt; Servers[\&quot;多台服务器\&quot;]\n  Servers --&gt; VLAN17216\n\n\n  class WAN1,WAN2 router\n  class FW firewall\n  class LAN168,LAN167,VLAN17216,VLAN17217 network\n  class SW3,PCs,Printers,Servers device&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="X32mSTuxojDAN8yr11aD-2257">
-          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
-            <mxGeometry as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="入户 WAN 路由器" mermaidId="n:WAN1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="入户 WAN 路由器" id="X32mSTuxojDAN8yr11aD-2258">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="182" x="230" y="1715" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="防火墙" mermaidId="n:FW" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="防火墙" id="X32mSTuxojDAN8yr11aD-2259">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="108" x="462" y="1715" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="192.168 局域网" mermaidId="n:LAN168" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="192.168 局域网" id="X32mSTuxojDAN8yr11aD-2260">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="169" x="620" y="1767" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="192.167 局域网" mermaidId="n:LAN167" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="192.167 局域网" id="X32mSTuxojDAN8yr11aD-2261">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="169" x="620" y="1663" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="三层交换机" mermaidId="n:SW3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="三层交换机" id="X32mSTuxojDAN8yr11aD-2262">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="140" x="839" y="1767" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="172.16 局域网" mermaidId="n:VLAN17216" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="172.16 局域网" id="X32mSTuxojDAN8yr11aD-2263">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="161" x="1029" y="1560" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="172.17 局域网" mermaidId="n:VLAN17217" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="172.17 局域网" id="X32mSTuxojDAN8yr11aD-2264">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="161" x="1029" y="1777" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="PC 等终端设备" mermaidId="n:PCs" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="PC 等终端设备" id="X32mSTuxojDAN8yr11aD-2265">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="163" x="1240" y="1560" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="打印机等设备" mermaidId="n:Printers" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="打印机等设备" id="X32mSTuxojDAN8yr11aD-2266">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="156" x="1244" y="1777" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="WAN 路由器&#xa;192.168.8" mermaidId="n:WAN2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="WAN 路由器&#xa;192.168.8" id="X32mSTuxojDAN8yr11aD-2267">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="73" width="145" x="632" y="1540" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="多台服务器" mermaidId="n:Servers" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="多台服务器" id="X32mSTuxojDAN8yr11aD-2268">
-          <mxCell parent="X32mSTuxojDAN8yr11aD-2257" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="140" x="839" y="1550" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:WAN1-&gt;FW#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2269">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2258" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2259">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:FW-&gt;LAN168#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.88;exitY=1;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2270">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2259" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.88;exitY=1;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2260">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="595" y="1794" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:FW-&gt;LAN167#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.88;exitY=0;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2271">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2259" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.88;exitY=0;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2261">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="595" y="1690" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:LAN168-&gt;SW3#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2272">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2260" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2262">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:SW3-&gt;VLAN17216#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.69;exitY=0;entryX=0.34;entryY=1;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2273">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2262" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.69;exitY=0;entryX=0.34;entryY=1;rounded=0;" target="X32mSTuxojDAN8yr11aD-2263">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="1004" y="1695" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:SW3-&gt;VLAN17217#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.63;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2274">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2262" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.63;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2264">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="1004" y="1804" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:VLAN17216-&gt;PCs#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2275">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2263" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2265">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:VLAN17217-&gt;Printers#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2276">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2264" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2266">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:WAN2-&gt;Servers#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.51;entryX=0;entryY=0.5;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2277">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2267" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;" target="X32mSTuxojDAN8yr11aD-2268">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" mermaidId="e:Servers-&gt;VLAN17216#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.35;" mermaidBaseValue="" id="X32mSTuxojDAN8yr11aD-2278">
-          <mxCell edge="1" parent="X32mSTuxojDAN8yr11aD-2257" source="X32mSTuxojDAN8yr11aD-2268" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.35;rounded=0;" target="X32mSTuxojDAN8yr11aD-2263">
-            <mxGeometry relative="1" as="geometry">
-              <Array as="points">
-                <mxPoint x="1004" y="1577" />
-              </Array>
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-126" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-1" parent="1" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;fontSize=18;" value="" vertex="1">
+          <mxGeometry height="64" width="101.59" x="380" y="1368.24" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-88" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.563;entryDx=0;entryDy=0;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="xgA3TpdWPk2AIlyLnWDh-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-120" connectable="0" parent="xgA3TpdWPk2AIlyLnWDh-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;172.16,2.0/24&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1829" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-3" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495.55999999999995" y="1408" as="sourcePoint" />
+            <mxPoint x="700" y="1402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;防火墙&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="695" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-65" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="160" width="150" x="1390" y="1386" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-66" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall-page1_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="695" y="1369" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-74" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-75" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-70" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_3_switch;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="899" y="1377" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-81" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-114" connectable="0" parent="xgA3TpdWPk2AIlyLnWDh-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 24px; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;172.16.0/.024&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0328" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-71" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="1089" y="1325" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-111" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-112" connectable="0" parent="xgA3TpdWPk2AIlyLnWDh-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;172.16.0/.024&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1895" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-72" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="1089" y="1441" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-73" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-77" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.laptop_2;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" value="PC" vertex="1">
+          <mxGeometry height="50" width="67.05" x="1431.47" y="1391" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="三层交换机" vertex="1">
+          <mxGeometry height="30" width="90" x="880" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="二层交换机&lt;br&gt;172.17.0/.024" vertex="1">
+          <mxGeometry height="30" width="108" x="1076.5" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-87" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="160" width="140" x="1408" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-85" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/infrastructure/1/Printer.svg" value="" vertex="1">
+          <mxGeometry height="34" width="36" x="1460" y="1491" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-90" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;fontSize=18;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="1447.5" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="二层交换机" vertex="1">
+          <mxGeometry height="30" width="108" x="1082" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-109" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-113" connectable="0" parent="xgA3TpdWPk2AIlyLnWDh-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 18px; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;192.168.8.0/24&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0331" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-97" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="" vertex="1">
+          <mxGeometry height="78" width="128" x="505.5" y="1745.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-100" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
+          <mxGeometry height="230" width="547.05" x="865.97" y="1669.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="多WAN路由器" vertex="1">
+          <mxGeometry height="30" width="101" x="519" y="1855.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-101" parent="1" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" value="&lt;font style=&quot;font-size: 18px&quot;&gt;商混服务器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="97.5" width="71" x="940" y="1751" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-104" parent="1" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" value="&lt;font style=&quot;font-size: 18px&quot;&gt;检测服务器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="97.5" width="71" x="1073" y="1751" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-105" parent="1" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" value="&lt;font style=&quot;font-size: 18px&quot;&gt;运维服务器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="97.5" width="71" x="1197" y="1751" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-106" parent="1" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" value="&lt;font style=&quot;font-size: 18px&quot;&gt;官网服务器&lt;/font&gt;" vertex="1">
+          <mxGeometry height="97.5" width="71" x="1320" y="1751" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-116" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.misc.lightweight_ap;" value="" vertex="1">
+          <mxGeometry height="56.00000000000001" width="101" x="1089" y="1194" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-118" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-121" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.laptop_2;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" value="PC" vertex="1">
+          <mxGeometry height="50" width="67.05" x="1431.47" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="870" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-124" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;AP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1121" y="1150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
