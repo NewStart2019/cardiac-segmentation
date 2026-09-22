@@ -89,9 +89,6 @@
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-77" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.laptop_2;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" value="PC" vertex="1">
           <mxGeometry height="50" width="67.05" x="1321.92" y="1693" as="geometry" />
         </mxCell>
-        <mxCell id="xgA3TpdWPk2AIlyLnWDh-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;三层交换机&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="140" x="462" y="1315" as="geometry" />
-        </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000027, #ffdada);" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;S1226F-HPWR交换机&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Trebuchet MS&amp;quot;, Arial, Helvetica, Verdana, &amp;quot;sans-serif&amp;quot;; text-align: left; background-color: rgb(245, 245, 245);&quot;&gt;&lt;font style=&quot;&quot;&gt;172.17.0.57&lt;br&gt;&lt;/font&gt;共计24电口，2光口，用7电口&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; font-size: 20px; text-align: left;&quot;&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="265" x="923" y="1297" as="geometry" />
         </mxCell>
@@ -385,7 +382,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RQIIBpFV-YDNA5zhsPo6-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000027, #ffdada);" value="&lt;font style=&quot;&quot;&gt;&lt;span&gt;&lt;span style=&quot;color: rgb(13, 13, 13); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans SC&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; text-align: start; white-space: pre-line;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;H3C S1850V2-52P-E&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: 微软雅黑, HPRegular; text-align: left;&quot;&gt;&lt;font&gt;交换机VLAN1：&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px; color: rgb(0, 0, 0); font-family: &amp;quot;Trebuchet MS&amp;quot;, Arial, Helvetica, Verdana, &amp;quot;sans-serif&amp;quot;; text-align: left; background-color: rgb(245, 245, 245);&quot;&gt;&lt;font style=&quot;&quot;&gt;172.17.0.2/24&lt;br&gt;VLAN100：192.168.2/30&lt;br&gt;&lt;/font&gt;5&lt;b&gt;↓&lt;/b&gt;，1↑&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; font-size: 20px; text-align: left;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="265" x="382.09" y="1260" as="geometry" />
+          <mxGeometry height="30" width="265" x="390" y="1290" as="geometry" />
         </mxCell>
         <mxCell id="RQIIBpFV-YDNA5zhsPo6-27" edge="1" parent="1" source="RQIIBpFV-YDNA5zhsPo6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-65">
           <mxGeometry relative="1" as="geometry">
