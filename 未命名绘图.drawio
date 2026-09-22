@@ -35,7 +35,7 @@
           <mxGeometry height="30" width="90" x="292.09000000000003" y="1310" as="geometry" />
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-65" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
-          <mxGeometry height="292.5" width="265" x="1310" y="1461" as="geometry" />
+          <mxGeometry height="292.5" width="265" x="1316.47" y="1461" as="geometry" />
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-66" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall-page1_128x128.png" value="" vertex="1">
           <mxGeometry height="80" width="80" x="310.00000000000006" y="1363" as="geometry" />
@@ -44,8 +44,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="1403" />
-              <mxPoint x="660" y="1600" />
-              <mxPoint x="979.57" y="1600" />
+              <mxPoint x="660" y="1670" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -65,7 +64,12 @@
           <mxGeometry height="64" width="64" x="500" y="1371" as="geometry" />
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-81" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-65">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="1665" />
+              <mxPoint x="1230" y="1665" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-114" connectable="0" parent="xgA3TpdWPk2AIlyLnWDh-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 24px; white-space: normal; background-color: rgb(236, 236, 236);&quot;&gt;172.16.0/.024&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0328" y="3" as="geometry">
@@ -84,7 +88,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-72" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
-          <mxGeometry height="50" width="101" x="930" y="1578" as="geometry" />
+          <mxGeometry height="50" width="101" x="940.5" y="1640" as="geometry" />
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-73" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-70">
           <mxGeometry relative="1" as="geometry" />
@@ -95,8 +99,8 @@
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;三层交换机&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="462" y="1315" as="geometry" />
         </mxCell>
-        <mxCell id="xgA3TpdWPk2AIlyLnWDh-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000027, #ffdada);" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; text-align: left;&quot;&gt;S1226F-HPWR交换机&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Trebuchet MS&amp;quot;, Arial, Helvetica, Verdana, &amp;quot;sans-serif&amp;quot;; text-align: left; background-color: rgb(245, 245, 245);&quot;&gt;172.17.0.57&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; font-size: 20px; text-align: left;&quot;&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="183.5" x="940.37" y="1297" as="geometry" />
+        <mxCell id="xgA3TpdWPk2AIlyLnWDh-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000027, #ffdada);" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;S1226F-HPWR交换机&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Trebuchet MS&amp;quot;, Arial, Helvetica, Verdana, &amp;quot;sans-serif&amp;quot;; text-align: left; background-color: rgb(245, 245, 245);&quot;&gt;&lt;font style=&quot;&quot;&gt;172.17.0.57&lt;br&gt;&lt;/font&gt;共计24电口，2光口，用7电口&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; font-size: 20px; text-align: left;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="265" x="923" y="1297" as="geometry" />
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-87" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="160" width="140" x="1280" y="1140" as="geometry" />
@@ -106,9 +110,6 @@
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-90" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;fontSize=18;" value="" vertex="1">
           <mxGeometry height="50" width="35" x="1345" y="1150" as="geometry" />
-        </mxCell>
-        <mxCell id="xgA3TpdWPk2AIlyLnWDh-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;二层交换机&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="128" x="923" y="1530" as="geometry" />
         </mxCell>
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-109" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-100">
           <mxGeometry relative="1" as="geometry" />
@@ -369,6 +370,25 @@
         </mxCell>
         <mxCell id="RQIIBpFV-YDNA5zhsPo6-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;172.17.0.26/27&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="1445" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="RQIIBpFV-YDNA5zhsPo6-16" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
+          <mxGeometry height="50" width="101" x="981.62" y="1534" as="geometry" />
+        </mxCell>
+        <mxCell id="RQIIBpFV-YDNA5zhsPo6-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000027, #ffdada);" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;S1226F-HPWR交换机&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Trebuchet MS&amp;quot;, Arial, Helvetica, Verdana, &amp;quot;sans-serif&amp;quot;; text-align: left; background-color: rgb(245, 245, 245);&quot;&gt;&lt;font style=&quot;&quot;&gt;172.17.0.58&lt;br&gt;&lt;/font&gt;共计24电口，2光口，用9电口&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 微软雅黑, HPRegular; font-size: 20px; text-align: left;&quot;&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="265" x="929" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="RQIIBpFV-YDNA5zhsPo6-18" edge="1" parent="1" source="RQIIBpFV-YDNA5zhsPo6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="RQIIBpFV-YDNA5zhsPo6-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="1388" />
+              <mxPoint x="920" y="1560" />
+              <mxPoint x="981.57" y="1560" />
+            </Array>
+            <mxPoint x="990" y="1555.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RQIIBpFV-YDNA5zhsPo6-19" edge="1" parent="1" source="RQIIBpFV-YDNA5zhsPo6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.368;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="xgA3TpdWPk2AIlyLnWDh-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
