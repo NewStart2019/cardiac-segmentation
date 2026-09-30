@@ -7,8 +7,7 @@
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-126" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="xgA3TpdWPk2AIlyLnWDh-97">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-108.43" y="1390" />
-              <mxPoint x="100" y="1390" />
+              <mxPoint x="100" y="1401" />
             </Array>
             <mxPoint x="90" y="1797.82" as="sourcePoint" />
             <mxPoint x="305.5" y="1809.97" as="targetPoint" />
@@ -48,9 +47,7 @@
         <mxCell id="xgA3TpdWPk2AIlyLnWDh-3" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="K4DCrs4YhmGqx0WBzhIv-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-108.43" y="1390" />
-              <mxPoint x="-8.43" y="1390" />
-              <mxPoint x="-8.43" y="1399" />
+              <mxPoint x="-108.43" y="1399" />
             </Array>
             <mxPoint x="335.55999999999995" y="1418" as="sourcePoint" />
             <mxPoint x="540" y="1412" as="targetPoint" />
@@ -411,7 +408,7 @@
         <mxCell id="K4DCrs4YhmGqx0WBzhIv-1" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="" vertex="1">
           <mxGeometry height="50" width="101" x="264.5" y="1374" as="geometry" />
         </mxCell>
-        <mxCell id="K4DCrs4YhmGqx0WBzhIv-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;S6720S-26Q-EI-24S-AC(LANSwitch)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;192.168.99.2&lt;/span&gt;" vertex="1">
+        <mxCell id="K4DCrs4YhmGqx0WBzhIv-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;程控交换机192.168.99.2&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="180" x="210" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="K4DCrs4YhmGqx0WBzhIv-5" edge="1" parent="1" source="xgA3TpdWPk2AIlyLnWDh-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" target="K4DCrs4YhmGqx0WBzhIv-1">
